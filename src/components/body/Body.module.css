@@ -1,0 +1,19 @@
+.body{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: 30px;
+    /* border: 1px solid #333; */
+}
+
+.select_year{
+    width: 77px;
+    margin-left: 20px;
+}
+
+.select_day{
+    width: 50px;
+    margin-left: 20px;
+}

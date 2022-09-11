@@ -1,0 +1,33 @@
+.card{
+    width:190px;
+    height: 190px;
+    box-sizing: border-box;
+    /* background-color: blue; */
+    flex-wrap: wrap;
+    margin: 20px 20px;
+    border: 1px solid #cdd4d0;
+    border-radius: 16px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px rgba(180, 182, 190, 0.2);
+}
+
+.card:hover{
+    color: red;
+}
+
+.img__avartar{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    /* border: 1px solid #333; */
+    border-radius: 45px;
+}
+
+.margin__around{
+    margin: 0;
+    padding-top: 7px;
+    color:#092f96;
+}

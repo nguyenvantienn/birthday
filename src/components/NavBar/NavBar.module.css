@@ -1,0 +1,18 @@
+.NavBar {
+    width: 20%;
+    height: 100%;
+    background-color: #0a124a;
+    color: #fff;
+    /* padding-left:40px ; */
+    box-sizing: border-box;
+}
+
+.navBar__Logo{
+    width: 70%;
+    margin: 20px 15%;
+}
+
+.navBar__Page{
+    padding-left: 60px;
+    padding-top: 15px;
+}
