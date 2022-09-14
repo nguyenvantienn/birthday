@@ -1,4 +1,4 @@
-export const datas=[
+export const datas =[
     {
         avartar :'https://vnn-imgs-a1.vgcloud.vn/image1.ictnews.vn/_Files/2020/03/17/trend-avatar-1.jpg',
         name:'Nguyễn Văn A',
@@ -32,7 +32,6 @@ export const datas=[
 ];
 
 export const user ={
-    name : 'Nguyễn Văn A',
-    avartar : '' 
+    name :'Nguyen Van A',
+    avartar :'https://vnn-imgs-a1.vgcloud.vn/image1.ictnews.vn/_Files/2020/03/17/trend-avatar-1.jpg'
 };
-

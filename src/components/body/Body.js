@@ -3,47 +3,7 @@ import Header from "../Header/Header"
 
 import styles from './Body.module.css'
 
-// import {datas} from ''
-
-
-
-const datas=[
-    {
-        avartar :'https://vnn-imgs-a1.vgcloud.vn/image1.ictnews.vn/_Files/2020/03/17/trend-avatar-1.jpg',
-        name:'Nguyễn Văn A',
-        birthday:'20-08-2022'
-    },
-    {
-        avartar :'https://vnn-imgs-a1.vgcloud.vn/image1.ictnews.vn/_Files/2020/03/17/trend-avatar-1.jpg',
-        name:'Nguyễn Văn B',
-        birthday:'20-08-2022'
-    },
-    {
-        avartar :'https://vnn-imgs-a1.vgcloud.vn/image1.ictnews.vn/_Files/2020/03/17/trend-avatar-1.jpg',
-        name:'Nguyễn Văn C',
-        birthday:'20-08-2022'
-    },
-    {
-        avartar :'https://vnn-imgs-a1.vgcloud.vn/image1.ictnews.vn/_Files/2020/03/17/trend-avatar-1.jpg',
-        name:'Nguyễn Văn C',
-        birthday:'20-08-2022'
-    },
-    {
-        avartar :'https://vnn-imgs-a1.vgcloud.vn/image1.ictnews.vn/_Files/2020/03/17/trend-avatar-1.jpg',
-        name:'Nguyễn Thị A',
-        birthday:'20-08-2022'
-    },
-    {
-        avartar :'https://vnn-imgs-a1.vgcloud.vn/image1.ictnews.vn/_Files/2020/03/17/trend-avatar-1.jpg',
-        name:'Nguyễn Thị B',
-        birthday:'20-08-2022'
-    }
-];
-
-const user={
-    name :'Nguyen Van A',
-    avartar :'https://vnn-imgs-a1.vgcloud.vn/image1.ictnews.vn/_Files/2020/03/17/trend-avatar-1.jpg'
-};
+import {datas,user} from '../../data/data.js'
 
 
 const  Body = ()=>{
@@ -54,6 +14,9 @@ const  Body = ()=>{
                 user ={user}
             />
             <div>
+                {/* TEST add nhiều className
+                    <button className={`${styles.btn} ${style.active}`}>Click ME! </button>
+                */}
                 <select className={styles.select_year}>
                     <option>2022</option>
                     <option>2023</option>
@@ -77,7 +40,7 @@ const  Body = ()=>{
             <div className={styles.body}>
                 {datas.map((data,index)=>{
                     return(
-                        <Card key={index} data={data}/>
+                        <Card className={styles.active} key={index} data={data} id={index}/>
                     )
                 })}
             </div>

@@ -2,7 +2,7 @@ import NavBarPage from './NavBarPage.js'
 import LogoNavBar from './LogoNaBar.js'
 import styles from './NavBar.module.css'
 
-console.log(styles);
+// console.log(styles);
 
 const NavBar = ()=>{
     return(

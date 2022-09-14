@@ -1,9 +1,8 @@
 import styles from './Card.module.css'
 
-console.log(styles);
 
 const Card = (props) => {
-    // console.log(props)
+    console.log(props.id);
     const {name,birthday,avartar} = props.data;
     return(
         <div className={styles.card}>
